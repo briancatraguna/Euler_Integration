@@ -22,6 +22,6 @@ t | u
 t<sub> n<sub/> | u<sub> t=t<sub> n<sub/><sub/>
   
 ### 3. Run the code!
-* Remember to always insert the input in numbers! Can be integers or floats but the program automatically adjust it to a float
+* Remember to always insert the input in numbers! Can be integers or floats but the program automatically adjust it to a float.
 
 ### Enjoy!
