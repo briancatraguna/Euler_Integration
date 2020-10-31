@@ -82,10 +82,10 @@ for i,data in enumerate(data_numpy):
     if len(x1) and len(x2) == len(t):
         break
     u = float(data[1])
-    x1_dot.append((-0.75*x1[i]+x2[i]+0.5*u)*0.1)
-    x2_dot.append((-1.2*x1[i]-x2[i]+u)*0.1)
-    x1.append(x1[i]+(-0.75*x1[i]+x2[i]+0.5*u)*0.1)
-    x2.append(x2[i]+(-1.2*x1[i]-x2[i]+u)*0.1)
+    x1_dot.append((A11*x1[i]+A12*x2[i]+B1*u)*0.1)
+    x2_dot.append((A21*x1[i]+A22[i]+B2*u)*0.1)
+    x1.append(x1[i]+(A11*x1[i]+A12*x2[i]+B1*u)*0.1)
+    x2.append(x2[i]+(A21*x1[i]+A22[i]+B2*u)*0.1)
 
 #Plotting the results
 plt.title("X1")
