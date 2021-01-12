@@ -8,11 +8,17 @@ By providing any kind of input data using a .csv file, you can get the results o
 ## How to use this code?
 ### 1. Download the required libraries. Go to command line, type and enter the following:
 *   Numpy
-> pip install numpy <br/>
+```bash
+pip install numpy
+```
 *   Pandas
-> pip install pandas <br/>
+```bash
+pip install pandas
+```
 *   Matplotlib
-> pip install matplotlib <br/>
+```bash
+pip install matplotlib
+```
 
 ### 2. Place the csv file inside the folder of the code with the following format:
 You can use any delta t that you want!
